@@ -21,3 +21,12 @@ Scenario:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2016-10-31
 Then the salary management system is initialized with the following data
+
+Scenario: salary management
+Given the salary management system is initialized with the following data
+When the boss increases the salary for the <user> with id <id> by 5%
+Then the payroll for the employee with <id> should display a salary of <salary>
+And i want save this string to Git
+And this string must be pulled from Git
+And this also must be re-stored on GIT!!!!
+And 34wteyeyy
