@@ -7,7 +7,7 @@ Background:
 Given new changes <user> and <username>
 
 
-@SC_155519 @fifth_scenario_tag
+@fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -24,7 +24,7 @@ Examples:
 |mickey|3|35000.0|
 |stive|4|45000.0|
 
-@SC_155523 @fifth_scenario_tag
+@fifth_scenario_tag
 Scenario Outline: Fifth scenario
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
